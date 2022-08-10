@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+   
+:target {
+    scroll-margin-top: .8em;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -87,7 +95,7 @@ footer {
     text-align: center;
     background: rgb(235, 6, 39);
     font-weight: bold;
-    font-size: 100%;
+    font-size: 1em;
     padding-top: 8px;
 }
 
@@ -99,9 +107,9 @@ footer a {
 
 .voltar__topo {
     position: absolute;
-    right: 5%;
+    right: 3%;
     bottom: 10%;
-    font-size: 32px;
+    font-size: 1.2em;
 }
 
 @media screen and (max-width: 940px) {
@@ -113,3 +121,4 @@ footer a {
         text-align: center;
     }
 }
+
