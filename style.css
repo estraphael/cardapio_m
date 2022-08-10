@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin-bottom: 120px;
+}
+
+.caixa__cabecalho, .imagem__cabecalho {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.paragrafo__titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.menu__rapido h2 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.menu__rapido a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    margin: 36px 0 0 16px;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+    font-weight: bold;
+}
+
+.valor {
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 20px;
+}
+
+.entradas li, .batatas li, .bebidas li, .smash__burgers li, .hot__dogs li, .batata__rosti li,
+.porcoes li, .sobremesas li, .traditional li, .special li, .gourmet li,
+.kids__burgers li, .custom__burgers li {
+    
+    list-style: none;
+    text-align: center;
+    width: 90%;
+    background: rgb(67, 107, 169);
+    margin: 5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+
+ul li {
+    box-shadow: 5px 5px 5px rgb(246, 183, 65);
+}
+
+.fotos {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 6em;
+    text-align: center;
+    background: rgb(235, 6, 39);
+    font-weight: bold;
+    font-size: 100%;
+    padding-top: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fefefe;
+    /*box-shadow: 5px 5px 5px black;*/
+}
+
+.voltar__topo {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 940px) {
+    nav, .cardapio, {
+        width: auto;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+}
